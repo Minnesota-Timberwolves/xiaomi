@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    width: 1226px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 尾部 */
+.footer-top{
+    height: 332px;
+    background-color:white;
+    margin-top: 10px
+   
+   }
+   .foot-head{
+       display: flex;
+       height: 76px;
+       line-height: 76px;
+       font-size: 20px;
+       border-bottom: 1px solid rgb(75,75,75);
+       text-align: center;
+       
+   }
+   .flex-one{
+       flex: 1;
+       cursor: pointer;
+      
+   }
+   .flex-one:hover{
+       color: rgb(255,103,0);   
+   }
+   .foot-midden{
+       height: 216px;
+       margin-top: 36px;
+   }
+   .foot-midden dl{
+       width: 160px;
+       float: left;
+       
+   }
+   .foot-midden dl dt{
+       color: #424242;
+       font-size: 14px;
+       margin-bottom: 26px;
+   
+   }
+   .foot-midden dl dd{
+       cursor: pointer;
+       font-size: 12px;
+       margin-bottom: 16px;
+       color: #333;
+   }
+   .foot-midden dl dd:hover{
+       color: rgb(255,103,0);
+   }
+   .foot-right{
+       float: left;
+       width: 236px;
+       text-align: center;
+   }
+   .foot-right p:nth-child(1){
+       font-size: 22px;
+       line-height: 1;
+       color: #ff6700;
+       margin-bottom: 10px;
+    
+   }
+   .foot-right p:nth-child(2){
+       color: #616161;
+       font-size: 12px;
+       margin-bottom: 10px;
+   }
+   .kefu{
+       width: 120px;
+       height: 30px;
+       color: #ff6700;
+       background-color: white;
+       border: 1px solid #ff6700;
+   
+       
+   }
+   .res{
+       position: relative;
+   }
+   .cmg{
+       position: absolute;
+       top: 30px;
+      left: 60px;
+   }
+   .cmg img{  
+       width: 106px;
+       height: 106px;
+   }
+   
+   .kefu:hover{
+       color: white;
+       background-color: #ff6700;
+       cursor: pointer;
+   
+   }
+   .ximain{
+       width: 1226px;
+       margin: 0 auto;
+       overflow: hidden;
+       
+   }
+   .logo-ir{
+       display: block;
+       width: 57px;
+       height: 57px;
+       margin-right: 10px;
+       background: url(https://s02.mifile.cn/assets/static/image/logo-footer.png) no-repeat 50% 50%;
+       margin-top: 24px;
+       float: left; 
+   }
+   .info-text{
+       float: left;margin-top: 24px;
+       
+   }
+   
+   .info-text p{
+       font-size: 12px;
+       cursor: pointer; 
+       color: rgb(176,176,176);   
+   }
+   .info-text p:nth-child(1){
+       color: rgb(117, 117, 117);
+   }
+   .info-text p:nth-child(2){
+       color: rgb(117, 117, 117);
+   }
+   .info-text p:nth-child(6){
+       margin-bottom: 10px;
+   }
+   .info-text>a>img  {
+       height: 33px;
+       width: 85px;
+   
+   }
+   .slogan-ir{
+       width: 1226px;
+       margin-top: 30px;
+       height: 50px;
+       background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/slogan2020.png) no-repeat center 0;
+   }
+   .info-text p:hover{
+       color: rgb(255,103,0);
+   }

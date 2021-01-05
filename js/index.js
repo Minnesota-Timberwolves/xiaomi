@@ -87,3 +87,7 @@ $('.res').mouseout(function(){
     $(this).children('.cmg').css('display','none')
 })
 
+$('.tb>ul li').mouseover(function(){
+    $(this).siblings().removeClass('active')
+    $(this).addClass('active')
+})
