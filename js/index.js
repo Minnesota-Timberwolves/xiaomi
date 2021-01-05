@@ -86,3 +86,4 @@ $('.res').mouseover(function(){
 $('.res').mouseout(function(){
     $(this).children('.cmg').css('display','none')
 })
+
