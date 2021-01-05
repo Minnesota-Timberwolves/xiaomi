@@ -1,0 +1,439 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+}
+body{
+    background-color:rgb(245,245,245);
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#bai{
+    background-color: #fff;
+}
+.header{
+    background: url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/717ab555092563ae0751a7069f0b11da.jpeg?w=5120&h=240) no-repeat 50% 0px;
+    background-size: 200% 100%;
+}
+.main{
+    width: 1226px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.header-top{
+height: 120px;
+background: url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/717ab555092563ae0751a7069f0b11da.jpeg?w=5120&h=240) no-repeat 50% 0px;
+background-size: 200% 100%;
+}
+
+.header-nav{
+ background-color: rgb(51,51,51);
+ height: 40px;
+ 
+}
+.max>a{
+    display: block;
+    line-height: 40px;
+    float: left;
+    color: #b0b0b0;
+    margin-right: 14px;
+}
+.max >a:hover{
+    color:white
+}
+.max>a:nth-child(14){
+    float: right;
+    margin-right: 0px;
+    background-color: rgb(255,103,0);
+    width: 120px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.max>a:nth-child(15){
+    float: right;
+    margin-left: 14px;
+}
+.max>a:nth-child(16){
+    float: right;
+    margin-left: 14px;
+}
+.max>a:nth-child(17){
+    float: right;
+    margin-left: 14px;
+}
+.max{
+position: relative;
+}
+.gouwuche{
+    position: absolute;
+    width: 318px;
+    min-height: 100px;
+    background-color: white;
+    top:40px;
+    right:  0px;
+    text-align: center;
+    color: #424242;
+    border-left: 1px rgb(176,176,176) solid;
+    border-right: 1px rgb(176,176,176) solid;
+    display: none;
+    z-index: 10001;
+}
+.gouwuche>p{
+    margin-top: 30px;
+}
+.log{
+    width: 62px;
+    height: 100px;
+    float: left;  
+}
+.log-one{
+  width: 55px;
+  height: 55px;
+  background-color: rgb(255,103,0);
+  margin-top: 24px;
+
+}
+
+.nav{
+    width: 850px;
+    height: 100px;
+    float: left;
+   
+}
+.nav>ul>li:nth-child(1)>img{
+    margin-top: 24px; 
+}
+.nav>ul>li{
+    float: left;
+}
+.nav>ul>li:nth-child(2){
+  width: 84px;
+}
+.nav>ul>li:nth-child(3){
+    width: 102px;
+  }
+  .nav>ul>li:nth-child(4){
+    width: 52px;
+  }
+  .nav>ul>li:nth-child(5){
+    width: 68px;
+  }
+  .nav>ul>li:nth-child(6){
+    width: 52px;
+  }
+  .nav>ul>li:nth-child(7){
+    width: 68px;
+  }
+  .nav>ul>li:nth-child(8){
+    width: 84px;
+  }
+  .nav>ul>li:nth-child(9){
+    width: 52px;
+  }
+  .nav>ul>li:nth-child(10){
+    width: 52px;
+  }
+  .nav>ul>li{
+      font-size: 14px;
+      color: black;
+      margin-right: 7px;
+  }
+  .nav>ul>li>a{
+    font-size: 14px;
+    color: black;
+    display: block;
+    line-height: 100px;
+}
+.nav>ul>li>a:hover{
+    color: rgb(255,103,0);
+}
+.scarch{
+    float: right;
+    width: 300px;
+    height: 100px;
+   position: relative;
+}
+.btn{
+    width: 52px;
+    height: 50px;
+    background-color: white;
+    float: right;
+    margin-top: 24px;
+    border: 1px solid rgb(176,176,176);
+}
+.inp{
+    width: 242px;
+    height: 48px;
+    margin-top: 24px;
+    float: right;
+    border-right: none;
+    border: 1px solid rgb(176,176,176);
+    outline: none;
+    font-size: 16px;
+    color: rgb(117, 117, 117);
+}
+.box{
+    /* background-color:red; */
+    width: 100%;
+   height: 100px;
+   position: relative;
+}
+
+.scarch>ol {
+    position: absolute;
+    height: 242px;
+    background-color: white;
+    width: 242px;
+    top: 72px;
+    right: 52px;
+    display: none;
+    border:1px solid rgb(255,103,0) ;
+    z-index: 1000;
+}
+.scarch>ol>li{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    color: rgb(66,66,66);
+}
+.nav-pic{
+    position: absolute;
+    height: 230px;
+    width: 100%;
+    background-color:white;
+    top: 100px;
+    left: 0;
+    display: none ;
+    z-index: 1000;
+}
+.nav-pic>ul>li {
+     float: left;
+     width: 204px;
+     height: 100%;   
+ }
+.nav-pic >ul >li>a{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.nav-pic >ul >li>a>span{
+    color: rgb(255,103,0);
+}
+
+.nav-pic >ul >li>a>p{
+    margin-top: 16px;
+    margin-bottom:4px ;
+    color: rgb(117, 117, 117)
+}
+.nav-pic >ul >li>a>img{
+    margin-top: 20px;
+}
+.swiper-slide>img{
+  width: 1226px;
+}
+.swiper-button-prev{
+ margin-left: 236px;
+}
+.box2{
+    width: 1226px;
+    margin: 0 auto;
+    position: relative;
+}
+.nav-list{
+    width:  236px;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    left: 0;
+    top: 0;
+}
+.nav-list>ul{
+   margin-top: 20px;
+}
+.nav-list >ul>li{
+    height: 42px; 
+    line-height: 42px;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+}
+
+.nav-list >ul>li>a{
+    display: inline;
+    padding-left: 20px; 
+    font-size: 16px;
+}
+.nav-list2{
+    position: absolute;
+    left:236px ;
+    background-color:white;
+    height: 100%;
+    width: 969px;
+    top: 0;
+    padding-left: 20px;
+    display: none;
+    cursor: pointer;
+}
+.nav-list2>a{
+  display: inline-block;
+  width: 239px;
+}
+.nav-list2>a>img{
+    vertical-align: middle;
+}
+.nav-list2>a>p{
+    display: inline-block;
+    line-height: 76px;
+    color: black;
+    font-size: 14px;
+}
+.nav-list2>a:hover p{
+    color: rgb(255,103,0);
+}
+
+.footer-top{
+ height: 332px;
+ background-color:white;
+ margin-top: 10px
+
+}
+.foot-head{
+    display: flex;
+    height: 76px;
+    line-height: 76px;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(75,75,75);
+    text-align: center;
+    
+}
+.flex-one{
+    flex: 1;
+    cursor: pointer;
+   
+}
+.flex-one:hover{
+    color: rgb(255,103,0);   
+}
+.foot-midden{
+    height: 216px;
+    margin-top: 36px;
+}
+.foot-midden dl{
+    width: 160px;
+    float: left;
+    
+}
+.foot-midden dl dt{
+    color: #424242;
+    font-size: 14px;
+    margin-bottom: 26px;
+
+}
+.foot-midden dl dd{
+    cursor: pointer;
+    font-size: 12px;
+    margin-bottom: 16px;
+    color: #333;
+}
+.foot-midden dl dd:hover{
+    color: rgb(255,103,0);
+}
+.foot-right{
+    float: left;
+    width: 236px;
+    text-align: center;
+}
+.foot-right p:nth-child(1){
+    font-size: 22px;
+    line-height: 1;
+    color: #ff6700;
+    margin-bottom: 10px;
+ 
+}
+.foot-right p:nth-child(2){
+    color: #616161;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.kefu{
+    width: 120px;
+    height: 30px;
+    color: #ff6700;
+    background-color: white;
+    border: 1px solid #ff6700;
+
+    
+}
+.res{
+    position: relative;
+}
+.cmg{
+    position: absolute;
+    top: 30px;
+   left: 60px;
+}
+.cmg img{  
+    width: 106px;
+    height: 106px;
+}
+
+.kefu:hover{
+    color: white;
+    background-color: #ff6700;
+    cursor: pointer;
+
+}
+.ximain{
+    width: 1226px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+.logo-ir{
+    display: block;
+    width: 57px;
+    height: 57px;
+    margin-right: 10px;
+    background: url(https://s02.mifile.cn/assets/static/image/logo-footer.png) no-repeat 50% 50%;
+    margin-top: 24px;
+    float: left; 
+}
+.info-text{
+    float: left;margin-top: 24px;
+    
+}
+
+.info-text p{
+    font-size: 12px;
+    cursor: pointer; 
+    color: rgb(176,176,176);   
+}
+.info-text p:nth-child(1){
+    color: rgb(117, 117, 117);
+}
+.info-text p:nth-child(2){
+    color: rgb(117, 117, 117);
+}
+.info-text p:nth-child(6){
+    margin-bottom: 10px;
+}
+.info-text>a>img  {
+    height: 33px;
+    width: 85px;
+
+}
+.slogan-ir{
+    width: 1226px;
+    margin-top: 30px;
+    height: 50px;
+    background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/slogan2020.png) no-repeat center 0;
+}
+.info-text p:hover{
+    color: rgb(255,103,0);
+}
