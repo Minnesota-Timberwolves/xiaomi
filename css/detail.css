@@ -1,0 +1,286 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+}
+body{
+    background-color:rgb(245,245,245);
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    width: 1226px;
+    margin: 0 auto;
+    background-color: white;
+}
+.header-nav{
+    background-color: rgb(51,51,51);
+    height: 40px;
+    
+   }
+   .max>a{
+       display: block;
+       line-height: 40px;
+       float: left;
+       color: #b0b0b0;
+       margin-right: 14px;
+   }
+   .max >a:hover{
+       color:white
+   }
+   .max>a:nth-child(14){
+       float: right;
+       margin-right: 0px;
+       background-color: rgb(255,103,0);
+       width: 120px;
+       text-align: center;
+       color: white;
+       position: relative;
+   }
+   .max>a:nth-child(15){
+       float: right;
+       margin-left: 14px;
+   }
+   .max>a:nth-child(16){
+       float: right;
+       margin-left: 14px;
+   }
+   .max>a:nth-child(17){
+       float: right;
+       margin-left: 14px;
+   }
+   .max{
+   position: relative;
+   }
+   .gouwuche{
+       position: absolute;
+       width: 318px;
+       min-height: 100px;
+       background-color: white;
+       top:40px;
+       right:  0px;
+       text-align: center;
+       color: #424242;
+       border-left: 1px rgb(176,176,176) solid;
+       border-right: 1px rgb(176,176,176) solid;
+       display: none;
+       z-index: 10001;
+   }
+   .gouwuche>p{
+       margin-top: 30px;
+   }
+
+/* 头部结束 */
+
+
+
+
+/* 中部轮播图 */
+#bai{
+    background-color: white;
+}
+.m1-left{
+    width: 560px;
+    float: left;
+}
+
+.swiper-slide>img{
+    width: 560px;
+    height: 560px;
+}
+.m1-right{
+    margin-left: 60px;
+    float: left;
+    width: 606px;
+}
+
+.m1-right-top{
+   height: 160px;
+   width: 100%;
+   border-bottom: 1px solid rgb(224,224,224);
+}
+.m1-right-top>h1{
+    color: #212121;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 24px;
+}
+.m1-right-top>p:nth-of-type(1){
+    margin-top: 10px;
+    color: #b0b0b0;
+}
+.m1-right-top>p:nth-of-type(2){
+    margin-top: 20px;
+    color: rgb(255,103,0);
+    font-size: 14px;
+}
+
+.m1-right-top>p:nth-of-type(3){
+  margin-top: 20px;
+  color: #ff6700;
+  font-size: 18px;
+}
+
+
+
+/* 下图 */
+
+.xiatu-main{
+     margin: 0 auto;
+     width: 1226px;  
+     background-color: white;
+}
+
+
+
+
+
+
+
+   /* 尾部 */
+   .footer-top{
+    height: 332px;
+    background-color:white;
+    margin-top: 10px
+   
+   }
+   .foot-head{
+       display: flex;
+       height: 76px;
+       line-height: 76px;
+       font-size: 20px;
+       border-bottom: 1px solid rgb(75,75,75);
+       text-align: center;
+       
+   }
+   .flex-one{
+       flex: 1;
+       cursor: pointer;
+      
+   }
+   .flex-one:hover{
+       color: rgb(255,103,0);   
+   }
+   .foot-midden{
+       height: 216px;
+       margin-top: 36px;
+   }
+   .foot-midden dl{
+       width: 160px;
+       float: left;
+       
+   }
+   .foot-midden dl dt{
+       color: #424242;
+       font-size: 14px;
+       margin-bottom: 26px;
+   
+   }
+   .foot-midden dl dd{
+       cursor: pointer;
+       font-size: 12px;
+       margin-bottom: 16px;
+       color: #333;
+   }
+   .foot-midden dl dd:hover{
+       color: rgb(255,103,0);
+   }
+   .foot-right{
+       float: left;
+       width: 236px;
+       text-align: center;
+   }
+   .foot-right p:nth-child(1){
+       font-size: 22px;
+       line-height: 1;
+       color: #ff6700;
+       margin-bottom: 10px;
+    
+   }
+   .foot-right p:nth-child(2){
+       color: #616161;
+       font-size: 12px;
+       margin-bottom: 10px;
+   }
+   .kefu{
+       width: 120px;
+       height: 30px;
+       color: #ff6700;
+       background-color: white;
+       border: 1px solid #ff6700;
+   
+       
+   }
+   .res{
+       position: relative;
+   }
+   .cmg{
+       position: absolute;
+       top: 30px;
+      left: 60px;
+   }
+   .cmg img{  
+       width: 106px;
+       height: 106px;
+   }
+   
+   .kefu:hover{
+       color: white;
+       background-color: #ff6700;
+       cursor: pointer;
+   
+   }
+   .ximain{
+       width: 1226px;
+       margin: 0 auto;
+       overflow: hidden;
+       
+   }
+   .logo-ir{
+       display: block;
+       width: 57px;
+       height: 57px;
+       margin-right: 10px;
+       background: url(https://s02.mifile.cn/assets/static/image/logo-footer.png) no-repeat 50% 50%;
+       margin-top: 24px;
+       float: left; 
+   }
+   .info-text{
+       float: left;margin-top: 24px;
+       
+   }
+   
+   .info-text p{
+       font-size: 12px;
+       cursor: pointer; 
+       color: rgb(176,176,176);   
+   }
+   .info-text p:nth-child(1){
+       color: rgb(117, 117, 117);
+   }
+   .info-text p:nth-child(2){
+       color: rgb(117, 117, 117);
+   }
+   .info-text p:nth-child(6){
+       margin-bottom: 10px;
+   }
+   .info-text>a>img  {
+       height: 33px;
+       width: 85px;
+   
+   }
+   .slogan-ir{
+       width: 1226px;
+       margin-top: 30px;
+       height: 50px;
+       background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/slogan2020.png) no-repeat center 0;
+   }
+   .info-text p:hover{
+       color: rgb(255,103,0);
+   }
+  
