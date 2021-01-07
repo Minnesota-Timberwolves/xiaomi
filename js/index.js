@@ -103,7 +103,7 @@ $.ajax({
             <p>${item.title}</p>
             <p>${item.desc}</p>
             <p><span>${item.pice}</span></p>
-        </li>`).appendTo($('phone>ul'))
+        </li>`).appendTo($('.phone>ul'))
         })
     }
 })
