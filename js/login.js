@@ -14,7 +14,7 @@
 
 $('#btn').click(function(){
   $.ajax({
-      url:"./json/login.json",
+      url:"./json/log.json",
       data:{
           username:$('#username').val(),
           password:$('#password').val()
