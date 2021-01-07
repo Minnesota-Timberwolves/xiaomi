@@ -11,3 +11,22 @@
      $(this).siblings().removeClass('active')
      $(this).addClass('active')
 })
+
+$('#btn').click(function(){
+  $.ajax({
+      url:"./json/login.json",
+      data:{
+          username:$('#username').val(),
+          password:$('#password').val()
+      },
+      dataType:"json",
+      success:function(res){
+          if(res.code==1){
+              // 登录成功，信息添加到本地存储
+              localStorage.setItem('name',$('#username').val());
+              localStorage.setItem('password',$('#password').val());
+              location.href = "./index.html"
+          }
+      }
+  });
+});
