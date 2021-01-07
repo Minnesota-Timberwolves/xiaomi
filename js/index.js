@@ -91,7 +91,6 @@ $('.tb>ul li').mouseover(function(){
     $(this).siblings().removeClass('active')
     $(this).addClass('active')
 })
-$('.box-md4>ul').remove();
 $.ajax({
     url:'./json/phone.json',
     method:'get',
@@ -104,7 +103,7 @@ $.ajax({
             <p>${item.title}</p>
             <p>${item.desc}</p>
             <p><span>${item.pice}</span></p>
-        </li>`).appendTo($('.box-md4>ul'))
+        </li>`).appendTo($('phone>ul'))
         })
     }
 })
