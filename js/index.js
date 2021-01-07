@@ -91,3 +91,20 @@ $('.tb>ul li').mouseover(function(){
     $(this).siblings().removeClass('active')
     $(this).addClass('active')
 })
+$('.box-md4>ul').remove();
+$.ajax({
+    url:'./json/phone.json',
+    method:'get',
+    dataType:'json',
+    success:function(data){
+        data.forEach(function(item){
+            $(`
+            <li >
+            <img src="${item.imge}" alt="">
+            <p>${item.title}</p>
+            <p>${item.desc}</p>
+            <p><span>${item.pice}</span></p>
+        </li>`).appendTo($('.box-md4>ul'))
+        })
+    }
+})
