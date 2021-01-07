@@ -92,7 +92,7 @@ $('.tb>ul li').mouseover(function(){
     $(this).addClass('active')
 })
 $.ajax({
-    url:'./json/phone.json',
+    url:'../json/phone.json',
     method:'get',
     dataType:'json',
     success:function(data){

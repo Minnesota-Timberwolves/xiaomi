@@ -25,7 +25,7 @@ $('#btn').click(function(){
               // 登录成功，信息添加到本地存储
               localStorage.setItem('name',$('#username').val());
               localStorage.setItem('password',$('#password').val());
-              location.href = "./index.html"
+              location.href = "../index.html"
           }
       }
   });
