@@ -116,12 +116,13 @@ body{
    表体开始
 */
 
-.list-list{
-    height: 117px;
-}
+/* .list-list{
+ 
+} */
 .list-list>ul{
+    height: 117px;
     width: 100%;
-    height: 100%; 
+   
     border-top: 2px solid  rgb(224,224,224);  
 }
 
@@ -141,7 +142,10 @@ body{
     margin-top: 44px;
     
 }
-
+.list-list>ul>li img{
+    width: 80px;
+    height: 80px;
+}
 
 .list-list>ul>li:nth-child(2){
     width: 120px;
@@ -497,3 +501,4 @@ body{
    .info-text p:hover{
        color: rgb(255,103,0);
    }
+

@@ -1,6 +1,7 @@
 
-
-
+$('.ggg1').click(function(){
+    location.href='./cart.html'
+} )
 
 
 

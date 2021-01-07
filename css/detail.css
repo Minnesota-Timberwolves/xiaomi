@@ -126,8 +126,91 @@ a{
   font-size: 18px;
 }
 
+.m1-right-center{
+    width: 600px;
+    height: 100px;
+    background-color: rgb(250,250,250);
+    margin-top: 20px;
+}
+.m1-right-center>p:nth-child(1){
+    padding-top: 30px;
+    margin-left: 50px;
+    font-size: 14px;
+    color: rgb(51,51,51);
+}
+.m1-right-center>p:nth-child(1)>span{
+    color: rgb(255,103,0);
+    font-size: 14px;
+}
+.m1-right-center>p:nth-child(2){
+
+    color: rgb(255,103,0);
+    font-size: 14px;
+    margin-left: 50px;
+}
+
+.m1-right-chick >h3{
+    line-height: 27px;
+    color: rgb(51,51,51);
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.m1-right-chick>button{
+    width: 294px;
+    height: 42px;
+     border: 1px solid rgb(255,103,0);
+     background-color: white;
+     margin-top: 10px;
+}
+.m1-right-out{
+     margin-top: 20px;
+     background-color: rgb(250,250,250);
+     height: 146px;
+     
+}
+.m1-right-out>p{
+    padding-top: 36px;
+    color: #616161;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.m1-right-out>p:nth-child(2){
+    color: rgb(255,103,0);
+    font-size: 24px;
+    padding-top: 0px;
+    margin-top: 20px;
+}
+.m1-right-go{
+ margin-top: 20px;
+ overflow: hidden;
+}
+.m1-right-go>button{
+    float: left;
+    color: white;
+    font-size: 16px;
+    border: none;
+    height: 54px;
+}
+.m1-right-go>button:nth-child(1){
+    width: 300px;
+    
+    background-color: rgb(255,103,0);
+  
+}
+
+.m1-right-go>button:nth-child(2){
+background-color: rgb(117, 117, 117);
+width: 142px;
+margin-left: 20px;
+}
 
 
+.over{
+    height: 60px;
+    width: 100%;
+    background-color:white;
+}
 /* 下图 */
 
 .xiatu-main{
