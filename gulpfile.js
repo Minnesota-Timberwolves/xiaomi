@@ -45,7 +45,7 @@ function jsHandler(){
 
 //压缩并移动html文件的方法
 function htmlHandler(){
-    return gulp.src('./pages/*.html') 
+    return gulp.src('./*.html') 
     .pipe(htmlmin({
         collapseWhitespace:true,  // 压缩所有空格，变成一行
         removeAttributeQuotes:true, //去除html属性值的引号
@@ -76,7 +76,7 @@ function delHandler(){
 function watchHanlder(){
     gulp.watch('./css/*.css',cssHandler);
     gulp.watch('./js/*.js',jsHandler);
-    gulp.watch('./pages/*.html',htmlHandler);
+    gulp.watch('.pages/*.html',htmlHandler);
     gulp.watch('./lib/**',libHandler);
     gulp.watch('./images/**',imgHandler);
 }
